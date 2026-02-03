@@ -1,0 +1,666 @@
+{
+  "results": [
+    {
+      "business_key": "google_places:ChIJLU1neKdxhlQRq0iyFFXtelo",
+      "name": "Guffo Caf\u00e9",
+      "address_full": "331 Howe St, Vancouver, BC V6C 3N2, Canada",
+      "phone": "(604) 620-3660",
+      "website_url": "https://guffocafe.shop/",
+      "categories": [
+        "cafe",
+        "coffee_shop",
+        "breakfast_restaurant",
+        "cafeteria",
+        "bakery",
+        "food_store",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {},
+      "social_confidence": 0.0,
+      "social_reasons": [],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJk5IDu3lxhlQRrQ0XKyJs_mk",
+      "name": "Revolver",
+      "address_full": "325 Cambie St., Vancouver, BC V6B 2N4, Canada",
+      "phone": "(604) 558-4444",
+      "website_url": "http://revolvercoffee.ca/",
+      "categories": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {},
+      "social_confidence": 0.0,
+      "social_reasons": [],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJJe_9i9RzhlQRr_00iVd_JKA",
+      "name": "Breka Bakery & Caf\u00e9 - Davie",
+      "address_full": "855 Davie St, Vancouver, BC V6Z 1B7, Canada",
+      "phone": "(604) 428-8080",
+      "website_url": "https://www.breka.ca/",
+      "categories": [
+        "bakery",
+        "sandwich_shop",
+        "cafe",
+        "dessert_shop",
+        "wholesaler",
+        "confectionery",
+        "food_store",
+        "restaurant",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/brekabakery/?hl=en"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJkWBVnUJxhlQRREmdKdiZjdc",
+      "name": "Pistachio Sweetery Cafe",
+      "address_full": "686 Seymour St, Vancouver, BC V6B 3K3, Canada",
+      "phone": "(236) 480-1793",
+      "website_url": "https://www.ubereats.com/ca/store/pistachio-sweetery-cafe/JGWO1PIIVzK6tvjq0TwzpQ?diningMode=DELIVERY&sc=SEARCH_SUGGESTION",
+      "categories": [
+        "coffee_shop",
+        "tea_house",
+        "cafe",
+        "dessert_shop",
+        "confectionery",
+        "bakery",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "facebook": "https://www.facebook.com",
+        "x": "https://analytics.twitter.com",
+        "tiktok": "https://analytics.tiktok.com",
+        "instagram": "//www.instagram.com/ubereats"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJG3FFGgBxhlQRag-hI9PvPgE",
+      "name": "Harbour Cafe",
+      "address_full": "683 Nicola St, Vancouver, BC V6G 3J4, Canada",
+      "phone": "(604) 603-4644",
+      "website_url": "https://harbour-cafe.ca/",
+      "categories": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/harbour_cafe_vancouver/"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJE6Bgx4BxhlQRq_hSV5efhmQ",
+      "name": "Breka Bakery & Caf\u00e9 - Bute",
+      "address_full": "812 Bute St, Vancouver, BC V6E 1E5, Canada",
+      "phone": "(604) 620-8200",
+      "website_url": "http://breka.ca/",
+      "categories": [
+        "bakery",
+        "cafe",
+        "sandwich_shop",
+        "dessert_shop",
+        "confectionery",
+        "food_store",
+        "store",
+        "wholesaler",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/brekabakery/?hl=en"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJTcb-61NzhlQRwEjxFnpWEc8",
+      "name": "Perfecto Cafe, Bakery & Gelato (Davie)",
+      "address_full": "605 Davie St, Vancouver, BC V6B 2G6, Canada",
+      "phone": "(604) 428-2112",
+      "website_url": "https://www.perfectocafe.ca/",
+      "categories": [
+        "cafe",
+        "tea_house",
+        "coffee_shop",
+        "sandwich_shop",
+        "breakfast_restaurant",
+        "ice_cream_shop",
+        "dessert_shop",
+        "confectionery",
+        "bakery",
+        "food_store",
+        "store",
+        "wholesaler",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://instagram.com/modellobespoke",
+        "facebook": "https://facebook.com/modellobespoke"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website",
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJqXGSSnhxhlQRNFFrqldUAsI",
+      "name": "Timbertrain Coffee Roasters - Gastown",
+      "address_full": "311 W Cordova St, Vancouver, BC V6B 4K2, Canada",
+      "phone": "(236) 513-4377",
+      "website_url": "https://timbertrain.ca/",
+      "categories": [
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/timbertrain/",
+        "youtube": "https://www.youtube.com/c/TimbertrainCoffeeRoasters",
+        "facebook": "https://www.facebook.com/TimbertrainCoffee/",
+        "x": "https://x.com/Timbertrain"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJPfedFNRzhlQRBY26YgTWxgI",
+      "name": "Blenz Coffee",
+      "address_full": "Blenz on Granville &, 700 Davie St, Vancouver, BC V6Z 1B6, Canada",
+      "phone": "(604) 564-3488",
+      "website_url": "https://blenz.com/",
+      "categories": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "linkedin": "https://www.linkedin.com/company/blenzcoffee",
+        "x": "https://twitter.com/BlenzCoffee",
+        "facebook": "https://www.facebook.com/BlenzCoffee",
+        "instagram": "https://www.instagram.com/blenzcoffee/",
+        "tiktok": "https://www.tiktok.com/@blenz_coffee"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJX3-OC1dzhlQR1sjnaqsPMlA",
+      "name": "cafe & life co.",
+      "address_full": "511 W 7th Ave, Vancouver, BC V5Z 1B4, Canada",
+      "phone": "(604) 336-9888",
+      "website_url": "https://www.cafeandlifeco.com/",
+      "categories": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/cafeandlifeco/",
+        "tiktok": "https://www.tiktok.com/@cafeandlife.co"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website",
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJgaWgg35xhlQRO-fJYBdEoDM",
+      "name": "lovelarte",
+      "address_full": "345 Robson St #101, Vancouver, BC V6B 0H3, Canada",
+      "phone": "(604) 599-7856",
+      "website_url": "http://www.lovelarte.com/",
+      "categories": [
+        "cafe",
+        "coffee_shop",
+        "dessert_shop",
+        "confectionery",
+        "bakery",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://static.cdninstagram.com/rsrc.php/v4/yI/r/VsNE-OHk_8a.png"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJxcq1bRdzhlQRB_tKXz2MA28",
+      "name": "Caffe Mira",
+      "address_full": "1225 Burrard St, Vancouver, BC V6Z 1Z5, Canada",
+      "phone": "(604) 423-9388",
+      "website_url": "http://caffemira.com/",
+      "categories": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "facebook": "https://www.facebook.com/caffemira/",
+        "instagram": "https://www.instagram.com/caffemira/"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website",
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJ_ZpGon1xhlQRjJ1HlGVq1jE",
+      "name": "Rocanini Coffee Roasters",
+      "address_full": "863 Beatty St, Vancouver, BC V6B 2M6, Canada",
+      "phone": "(778) 379-1863",
+      "website_url": "https://www.rocanini.com/",
+      "categories": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/rocanini/",
+        "youtube": "https://www.youtube.com/channel/UCk5LqzKqAgJnIqIBfvR2E8g"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website",
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJncvl1O1xhlQRTTuGBdE9IoY",
+      "name": "Bahar Bakery & Cafe",
+      "address_full": "579 Robson St, Vancouver, BC V6B 1A6, Canada",
+      "phone": null,
+      "website_url": "https://www.baharbakery.ca/",
+      "categories": [
+        "bakery",
+        "coffee_shop",
+        "dessert_shop",
+        "confectionery",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 5.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/bahar_bakery_cafe/?igsh=MWp6dm5hbWM1am5tZQ%3D%3D"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJZzxdHW9xhlQRKS9s0XXYUZQ",
+      "name": "Nemesis Coffee GNW",
+      "address_full": "555 Great Northern Wy, Vancouver, BC V5T 1E1, Canada",
+      "phone": null,
+      "website_url": "https://www.nemesis.coffee/",
+      "categories": [
+        "cafe",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 5.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/nemesis.coffee/",
+        "facebook": "https://www.facebook.com/coffeecreatingculture/",
+        "youtube": "https://www.youtube.com/channel/UC01tKSmpRcgmd4V8FF4L4jw"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJRZTroXlxhlQRihHJRYedPys",
+      "name": "Nemesis Coffee Gastown",
+      "address_full": "302 W Hastings St, Vancouver, BC V6B 2N4, Canada",
+      "phone": null,
+      "website_url": "https://www.nemesis.coffee/",
+      "categories": [
+        "cafe",
+        "coffee_shop",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 5.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/nemesis.coffee/",
+        "facebook": "https://www.facebook.com/coffeecreatingculture/",
+        "youtube": "https://www.youtube.com/channel/UC01tKSmpRcgmd4V8FF4L4jw"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJYYcAwV9xhlQRUvM0kGD23YE",
+      "name": "Saunter Coffee",
+      "address_full": "321 W Pender St, Vancouver, BC V6B 1T3, Canada",
+      "phone": null,
+      "website_url": "http://www.sauntercoffee.com/",
+      "categories": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 5.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/saunter.coffee"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJSSC_AgBzhlQR4kc1QCYS10U",
+      "name": "AVIK (WEST BROADWAY)",
+      "address_full": "682 W Broadway, Vancouver, BC V5Z 1G1, Canada",
+      "phone": null,
+      "website_url": "http://avikcafe.com/",
+      "categories": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 5.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {},
+      "social_confidence": 0.0,
+      "social_reasons": [],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJjZwQcwBxhlQRICcwo3TrEs0",
+      "name": "Oid\u00e9 Coffee",
+      "address_full": "1548 W 2nd Ave, Vancouver, BC V6J 3B1, Canada",
+      "phone": null,
+      "website_url": "http://oideoide.com/",
+      "categories": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 5.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/oidecoffee/?hl=en"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJq18RNwBxhlQRvqv3sqlJ2gA",
+      "name": "Estratto coffee",
+      "address_full": "336 W Pender St, Vancouver, BC V6B 1T1, Canada",
+      "phone": "(778) 668-3863",
+      "website_url": null,
+      "categories": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 4.0,
+      "score_breakdown": {
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {},
+      "social_confidence": 0.0,
+      "social_reasons": [],
+      "needs_review": false
+    }
+  ]
+}

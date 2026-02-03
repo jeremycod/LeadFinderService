@@ -1,0 +1,695 @@
+{
+  "results": [
+    {
+      "business_key": "google_places:ChIJkWBVnUJxhlQRREmdKdiZjdc",
+      "name": "Pistachio Sweetery Cafe",
+      "address_full": "686 Seymour St, Vancouver, BC V6B 3K3, Canada",
+      "phone": "(236) 480-1793",
+      "website_url": "https://www.ubereats.com/ca/store/pistachio-sweetery-cafe/JGWO1PIIVzK6tvjq0TwzpQ?diningMode=DELIVERY&sc=SEARCH_SUGGESTION",
+      "categories": [
+        "coffee_shop",
+        "tea_house",
+        "dessert_shop",
+        "confectionery",
+        "bakery",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "facebook": "https://www.facebook.com",
+        "x": "https://analytics.twitter.com",
+        "tiktok": "https://analytics.tiktok.com",
+        "instagram": "//www.instagram.com/ubereats"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJE6Bgx4BxhlQRq_hSV5efhmQ",
+      "name": "Breka Bakery & Caf\u00e9 - Bute",
+      "address_full": "812 Bute St, Vancouver, BC V6E 1E5, Canada",
+      "phone": "(604) 620-8200",
+      "website_url": "http://breka.ca/",
+      "categories": [
+        "bakery",
+        "cafe",
+        "sandwich_shop",
+        "dessert_shop",
+        "confectionery",
+        "food_store",
+        "store",
+        "wholesaler",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/brekabakery/?hl=en"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJPfedFNRzhlQRBY26YgTWxgI",
+      "name": "Blenz Coffee",
+      "address_full": "Blenz on Granville &, 700 Davie St, Vancouver, BC V6Z 1B6, Canada",
+      "phone": "(604) 564-3488",
+      "website_url": "https://blenz.com/",
+      "categories": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "linkedin": "https://www.linkedin.com/company/blenzcoffee",
+        "x": "https://twitter.com/BlenzCoffee",
+        "facebook": "https://www.facebook.com/BlenzCoffee",
+        "instagram": "https://www.instagram.com/blenzcoffee/",
+        "tiktok": "https://www.tiktok.com/@blenz_coffee"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJ_-p2GABzhlQRDz6aIwap7i8",
+      "name": "Nine Bar Coffee",
+      "address_full": "477 Davie St, Vancouver, BC V6B 2G2, Canada",
+      "phone": "(604) 781-6461",
+      "website_url": "http://ninebar.ca/",
+      "categories": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "x": "https://wix.com/?utm_campaign=vir_created_with",
+        "instagram": "https://www.instagram.com/ninebar.coffee/"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website",
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJxQ-OjRBxhlQRtGrW8532saQ",
+      "name": "Monaco Cafe",
+      "address_full": "356 Water St, Vancouver, BC V6B 1B6, Canada",
+      "phone": "(604) 566-7111",
+      "website_url": "http://monacocafe.ca/",
+      "categories": [
+        "coffee_shop",
+        "cafe",
+        "breakfast_restaurant",
+        "food_store",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/monacocafe.ca/?hl=en"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJx19lhHhxhlQR00Wyx2MBMZc",
+      "name": "Trees Organic Coffee 450 Granville",
+      "address_full": "450 Granville St, Vancouver, BC V6C 1V4, Canada",
+      "phone": "(604) 684-5022",
+      "website_url": "https://treescoffee.com/",
+      "categories": [
+        "cafe",
+        "sandwich_shop",
+        "coffee_shop",
+        "dessert_restaurant",
+        "food_store",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "facebook": "https://www.facebook.com/treescoffee/",
+        "x": "https://twitter.com/TreesOrganic",
+        "instagram": "https://www.instagram.com/treescoffee/"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJJe_9i9RzhlQRr_00iVd_JKA",
+      "name": "Breka Bakery & Caf\u00e9 - Davie",
+      "address_full": "855 Davie St, Vancouver, BC V6Z 1B7, Canada",
+      "phone": "(604) 428-8080",
+      "website_url": "https://www.breka.ca/",
+      "categories": [
+        "bakery",
+        "cafe",
+        "sandwich_shop",
+        "dessert_shop",
+        "confectionery",
+        "food_store",
+        "store",
+        "wholesaler",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/brekabakery/?hl=en"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJX3364W9xhlQR0C3cwipNU5U",
+      "name": "Breka Bakery & Caf\u00e9 - W Hastings",
+      "address_full": "740 W Hastings St, Vancouver, BC V6C 1A5, Canada",
+      "phone": "(604) 559-0900",
+      "website_url": "http://www.breka.ca/",
+      "categories": [
+        "bakery",
+        "sandwich_shop",
+        "dessert_shop",
+        "confectionery",
+        "cafe",
+        "wholesaler",
+        "food_store",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/brekabakery/?hl=en"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJw_T5X3pzhlQRYvmEU0v21w0",
+      "name": "Blenz Coffee",
+      "address_full": "Blenz on Davie & Bute St, 1203 Davie St, Vancouver, BC V6E 1N3, Canada",
+      "phone": "(778) 724-1593",
+      "website_url": "https://blenz.com/",
+      "categories": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "linkedin": "https://www.linkedin.com/company/blenzcoffee",
+        "x": "https://twitter.com/BlenzCoffee",
+        "facebook": "https://www.facebook.com/BlenzCoffee",
+        "instagram": "https://www.instagram.com/blenzcoffee/",
+        "tiktok": "https://www.tiktok.com/@blenz_coffee"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJJwfntn9xhlQRXRl_KTiNob8",
+      "name": "Taf's Cafe",
+      "address_full": "829 Granville St, Vancouver, BC V6Z 1K7, Canada",
+      "phone": "(604) 684-8900",
+      "website_url": "http://www.tafscafe.ca/?i=1",
+      "categories": [
+        "cafe",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {},
+      "social_confidence": 0.0,
+      "social_reasons": [],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJOy8s1A9zhlQRHGWjRLQAgNw",
+      "name": "Trees Organic Coffee Burrard St",
+      "address_full": "930 Burrard St, Vancouver, BC V6Z 3G5, Canada",
+      "phone": "(604) 620-1212",
+      "website_url": "http://treescoffee.com/",
+      "categories": [
+        "coffee_shop",
+        "breakfast_restaurant",
+        "sandwich_shop",
+        "cafe",
+        "dessert_shop",
+        "confectionery",
+        "bakery",
+        "food_store",
+        "restaurant",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "facebook": "https://www.facebook.com/treescoffee/",
+        "x": "https://twitter.com/TreesOrganic",
+        "instagram": "https://www.instagram.com/treescoffee/"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJLU1neKdxhlQRq0iyFFXtelo",
+      "name": "Guffo Caf\u00e9",
+      "address_full": "331 Howe St, Vancouver, BC V6C 3N2, Canada",
+      "phone": "(604) 620-3660",
+      "website_url": "https://guffocafe.shop/",
+      "categories": [
+        "cafe",
+        "cafeteria",
+        "coffee_shop",
+        "bakery",
+        "breakfast_restaurant",
+        "food_store",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {},
+      "social_confidence": 0.0,
+      "social_reasons": [],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJrRJmv3txhlQR3MkGD9d3OPA",
+      "name": "Charisma Social Club House",
+      "address_full": "197 Keefer Pl, Vancouver, BC V6B 6C1, Canada",
+      "phone": "(604) 620-4688",
+      "website_url": "http://charismabc.com/",
+      "categories": [
+        "dessert_restaurant",
+        "hamburger_restaurant",
+        "coffee_shop",
+        "cafe",
+        "sandwich_shop",
+        "american_restaurant",
+        "food_store",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "x": "https://www.wix.com/studio"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJl97JCH5xhlQRCMTZHG7N-Sg",
+      "name": "SOCIAL CORNER YALETOWN",
+      "address_full": "891 Homer St, Vancouver, BC V6B 2W2, Canada",
+      "phone": "(604) 428-6111",
+      "website_url": "http://www.persesocialcorner.com/",
+      "categories": [
+        "italian_restaurant",
+        "hamburger_restaurant",
+        "brunch_restaurant",
+        "meal_delivery",
+        "coffee_shop",
+        "food_delivery",
+        "pizza_restaurant",
+        "cafe",
+        "food_store",
+        "store",
+        "spanish_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/socialcornerrestaurants/?hl=es",
+        "facebook": "https://www.facebook.com/persesocialcorner/",
+        "youtube": "https://www.youtube.com/channel/UC-fSchhETBHUBqVAFJ5-b0w"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website",
+        "linked_from_website",
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJk5IDu3lxhlQRrQ0XKyJs_mk",
+      "name": "Revolver",
+      "address_full": "325 Cambie St., Vancouver, BC V6B 2N4, Canada",
+      "phone": "(604) 558-4444",
+      "website_url": "http://revolvercoffee.ca/",
+      "categories": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {},
+      "social_confidence": 0.0,
+      "social_reasons": [],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJnTr-rolxhlQRiw9cIoI-Luc",
+      "name": "FUNK. Coffee Bar",
+      "address_full": "1025 Dunsmuir St, Vancouver, BC V7X 1M5, Canada",
+      "phone": "(604) 260-0564",
+      "website_url": "https://www.funkcoffeebar.com/",
+      "categories": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "store",
+        "event_venue",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/funk.coffeebar"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJqW0i-MFxhlQRqLCHPaCGgvg",
+      "name": "Slo Coffee Granville St.",
+      "address_full": "609 Granville St #102, Vancouver, BC V7Y 1H4, Canada",
+      "phone": "(604) 259-7583",
+      "website_url": "http://www.slocoffee.ca/",
+      "categories": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 7.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/slocoffee_/",
+        "facebook": "https://www.facebook.com/slocoffeeyvr"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website",
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJncvl1O1xhlQRTTuGBdE9IoY",
+      "name": "Bahar Bakery & Cafe",
+      "address_full": "579 Robson St, Vancouver, BC V6B 1A6, Canada",
+      "phone": null,
+      "website_url": "https://www.baharbakery.ca/",
+      "categories": [
+        "bakery",
+        "coffee_shop",
+        "dessert_shop",
+        "confectionery",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 5.0,
+      "score_breakdown": {
+        "website": 3.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/bahar_bakery_cafe/?igsh=MWp6dm5hbWM1am5tZQ%3D%3D"
+      },
+      "social_confidence": 0.95,
+      "social_reasons": [
+        "linked_from_website"
+      ],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJuZBcfgBxhlQRLJ78Rm8C_O0",
+      "name": "Ricardo\u2019s (Bubble Tea, Ice Cream, Coffee) - Granville",
+      "address_full": "840 Granville St, Vancouver, BC V6Z 1K3, Canada",
+      "phone": "(604) 566-9030",
+      "website_url": null,
+      "categories": [
+        "ice_cream_shop",
+        "tea_house",
+        "coffee_shop",
+        "cafe",
+        "dessert_shop",
+        "wholesaler",
+        "confectionery",
+        "bakery",
+        "food_store",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 4.0,
+      "score_breakdown": {
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {},
+      "social_confidence": 0.0,
+      "social_reasons": [],
+      "needs_review": false
+    },
+    {
+      "business_key": "google_places:ChIJq18RNwBxhlQRvqv3sqlJ2gA",
+      "name": "Estratto coffee",
+      "address_full": "336 W Pender St, Vancouver, BC V6B 1T1, Canada",
+      "phone": "(778) 668-3863",
+      "website_url": null,
+      "categories": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "score": 4.0,
+      "score_breakdown": {
+        "phone": 2.0,
+        "address": 1.0,
+        "types": 1.0
+      },
+      "socials": {},
+      "social_confidence": 0.0,
+      "social_reasons": [],
+      "needs_review": false
+    }
+  ]
+}

@@ -61,138 +61,105 @@ SERP fallback provider (Pro tier):
 
 ---
 
-## 3) Workflow graph (agent nodes)
+## 3) Workflow graph (MVP-first)
 
-This system uses a **DAG** of nodes. Some nodes are deterministic processors; some may be “LLM/agent” nodes (optional). In v1, you can implement all nodes deterministically and add LLM reasoning later for better matching and summaries.
+This service uses a **workflow DAG** (directed acyclic graph) made of nodes. For the MVP, we keep only the **most critical nodes** to ship a useful, cost-controlled service.
 
-### 3.1 Node list (in execution order)
+### 3.1 MVP node list (execution order)
 
-#### Node A — RequestPlanner
-**Inputs:** SearchRequest  
-**Outputs:** `ExecutionPlan` (anchors, quotas, provider selection, budget rules, scoring knobs)
+#### Node A — RequestPlanner (**critical**)
+**Purpose:** Convert the user request into an executable plan with safe defaults.
 
-Responsibilities:
-- Normalize query + geo scope
-- If geo is broad (country/province), generate anchor plan
-- Select plan defaults based on `plan` tier
-- Derive `cost_budget` and `enrichment_policy`
-
----
-
-#### Node B — AnchorGenerator
-**Inputs:** `ExecutionPlan.geo_scope`  
-**Outputs:** `List[Anchor]` with `quota_per_anchor`
-
-Anchor types:
-- `center+radius` (preferred)
-- bounding box (optional)
-
-For “Canada” requests, anchors should be a **nationwide sampling plan**:
-- province-level representation + major metro areas
-- optional “population-weighted” distribution
-- deterministic (no LLM)
+**Outputs:**
+- provider selection (google|osm)
+- anchor plan requirements (nationwide sampling when geo is broad)
+- budgets: website fetch cap, max provider calls per anchor, timeouts
+- diversity constraints (cap per city/anchor)
 
 ---
 
-#### Node C — DiscoverBusinesses
-**Inputs:** anchors, query, discovery provider  
+#### Node B — AnchorGenerator (**critical**)
+**Purpose:** Turn a broad geo scope (e.g., a whole country) into manageable **anchors**.
+
+**Outputs:** `List[Anchor(center_lat, center_lng, radius_km, quota)]`
+
+> Deterministic (no LLM). This prevents results from being dominated by the biggest metros.
+
+---
+
+#### Node C — DiscoverBusinesses (**critical**)
+**Purpose:** Retrieve candidate businesses from a structured discovery provider.
+
+**Notes (MVP):**
+- Uses discovery provider search results only (no additional per-place "details" fetch).
+- Retrieves whatever structured data is available in the search response (name, address, lat/lng, types, and **website if present**).
+
 **Outputs:** `List[RawCandidate]`
 
-Responsibilities:
-- Query provider for each anchor with pagination
-- Persist raw provider payload for debugging
-- Stop early when `target_count + buffer` candidates collected
+---
+
+#### Node D — CanonicalizeAndDedupe (**critical**)
+**Purpose:** Convert candidates into canonical `Business` entities and dedupe across anchors.
+
+**Primary dedupe:**
+- provider canonical ID when present (e.g., Google `place_id`)
+
+**Fallback:**
+- normalized `(name + address)` + geo proximity threshold
 
 ---
 
-#### Node D — CanonicalizeAndDedupe
-**Inputs:** raw candidates  
-**Outputs:** `List[Business]` (unique), mapping `candidate -> business_id`
+#### Node E — ScoreLeads (**critical**)
+**Purpose:** Rank candidates so we can return the best N leads and keep results useful.
 
-Responsibilities:
-- Upsert canonical `Business` records
-- Dedupe using:
-  - provider canonical ID when present (`place_id`, `osm_id`)
-  - fallback: normalized `(name, address)` + geo-distance tolerance
-
----
-
-#### Node E — ScoreLeads
-**Inputs:** canonical businesses  
-**Outputs:** `SearchResult` rows with `score` + `score_breakdown`
-
-Scoring (example):
+**Example scoring:**
 - +3 website present
-- +2 phone present
-- +2 category matches query strongly
-- +1 complete address fields
-- +1 has opening hours (if available from discovery)
+- +2 phone present (if provided by discovery)
+- +2 strong category match
+- +1 address completeness
 
 ---
 
-#### Node F — WebsiteSocialExtractor
-**Inputs:** businesses with `website_url`  
-**Outputs:** `EnrichmentRecord(type="socials", source="website")`
+#### Node F — WebsiteSocialExtractor (**critical** ✅)
+**Purpose:** Extract social links from the **business website** (cheap, high-confidence, ToS-friendly).
 
-Responsibilities:
-- Fetch homepage HTML (rate-limited per domain)
-- Parse links; extract `instagram/facebook/linkedin/tiktok/x/youtube`
-- Optionally follow one internal link: `/contact`, `/about` (bounded)
-- Store social URLs and high confidence
+**Inputs:** businesses with `website_url`
 
----
+**Steps:**
+1. Fetch homepage HTML (per-domain rate limited; capped per search)
+2. Extract outbound links
+3. Filter known social domains (instagram/facebook/linkedin/tiktok/x/youtube)
+4. Optionally follow **one** internal page (contact/about) for more links (bounded)
 
-#### Node G — SerpSocialEnricher (Pro only)
-**Inputs:** businesses missing socials, remaining paid budget  
-**Outputs:** `EnrichmentRecord(type="socials_candidates", source="serp")`
+**Outputs:** `EnrichmentRecord(type="socials", source="website")` with high confidence and reasons.
 
-Responsibilities:
-- 1 SERP query per business *max*
-- Prefer one query covering all platforms:
-  - `"{name}" "{city}" "{region}" (instagram OR linkedin OR facebook) official`
-- Extract candidate URLs per platform with ranking signals from snippets
+> This node is the MVP's key enrichment step; it reduces dependence on paid SERP APIs.
 
 ---
 
-#### Node H — SocialVerifier
-**Inputs:** website socials + SERP candidates  
-**Outputs:** final chosen socials + confidence + reasons
-
-Verification signals (ranked):
-1. Social link appears on business website → confidence 0.90–0.98
-2. Social profile metadata links back to the business website domain → 0.80–0.90
-3. Page title/snippet matches name + location → 0.60–0.75
-4. URL exists only → 0.30–0.50 (flag)
-
-Outputs:
-- final `socials` object per business
-- `social_confidence` and `reasons`
-- `needs_review` boolean for low confidence
+#### Node G — AssembleResults (**critical**)
+**Purpose:** Materialize the final list (e.g., 300 leads), persist results, and expose via API.
 
 ---
 
-#### Node I — AssembleResults
-**Inputs:** businesses + enrichments + scores  
-**Outputs:** persisted `SearchResult` + search summary
+#### Node H — ExportGenerator (**critical**)
+**Purpose:** Export to CSV/JSON.
 
 ---
 
-#### Node J — ExportGenerator
-**Inputs:** search_id + format + columns  
-**Outputs:** export artifact (CSV/JSON) + `Export` record
+### 3.2 Optional nodes (post-MVP)
+These are intentionally **not required** for the MVP, but can be added later:
 
----
-
-### 3.2 Human-in-the-loop (optional UI/endpoint)
-For low-confidence socials:
-- return candidate list + reasons
-- allow user to accept/reject per business
-
-This avoids over-automating questionable matches.
+- **SerpSocialEnricher (Pro)**: SERP fallback to find socials when missing from website
+- **SocialVerifier**: deeper verification beyond "linked from website"
+- **Robots/ToS checker**: stricter crawl compliance checks
+- **PII filter**: needed once extracting emails; optional if MVP stores only social URLs
+- **DiversitySampler**: stronger nationwide balancing (if your anchors aren't sufficient)
 
 ---
 
 ## 4) API specification (FastAPI)
+ (FastAPI)
 
 ### 4.1 Authentication
 Use API keys for v1.
